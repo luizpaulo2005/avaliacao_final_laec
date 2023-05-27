@@ -3,7 +3,11 @@
 
 body, html {
   font-family: 'JetBrains Mono', monospace !important;
-  background-color: $bg;
+  background-color: $bg !important;
+}
+
+main {
+  color: $quinta-cor !important;
 }
 
 .link-color {
