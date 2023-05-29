@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Login</title>
+    <title>Dúvidas</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/style.css">
@@ -47,21 +47,25 @@
 <main class="container-fluid py-5 d-flex justify-content-center">
     <form class="col-12 col-md-9 col-lg-6 forms">
         <fieldset class="border rounded p-4">
-            <legend class="fs-2">Login</legend>
+            <legend class="fs-2 mb-3">Dúvidas / Sugestões</legend>
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="name_input" placeholder="John Doe">
+                <label for="name_input">Digite seu nome</label>
+            </div>
             <div class="form-floating mb-3">
                 <input type="email" class="form-control" id="email_input" placeholder="name@example.com">
                 <label for="email_input">Digite seu e-mail</label>
             </div>
             <div class="form-floating mb-3">
-                <input type="password" class="form-control" id="password_input" placeholder="Password">
-                <label for="password_input">Digite sua senha</label>
+                <textarea class="form-control" placeholder="Leave a comment here" id="textarea_input"></textarea>
+                <label for="textarea_input">Deixe seu comentário aqui</label>
             </div>
-            <button class="btn btn-outline-success">Entrar</button>
+            <button class="btn btn-outline-success">Enviar</button>
         </fieldset>
     </form>
 </main>
 
-<footer class="d-flex flex-row footer-bg justify-content-around flex-wrap p-4 redes-sociais gap-5" >
+<footer class="d-flex flex-row footer-bg justify-content-around flex-wrap p-4 redes-sociais gap-5">
     <div class="d-flex flex-column justify-content-center text-center col-12 col-md-6 col-lg-3">
         <h4>Redes Sociais</h4>
         <p class="mt-2">Facebook</p>
@@ -78,7 +82,8 @@
         <h4>Nossos contatos</h4>
         <p class="mt-2">Telefone: (11) 99999-9999</p>
         <p>E-mail: email@email.com</p>
-        <p>Tem dúvidas? Acesse esse <a href="./duvidas.html" class="underline link-color">link</a> e nos envie sua sugestão</p>
+        <p>Tem dúvidas? Acesse esse <a href="./duvidas.html" class="underline link-color">link</a> e nos envie sua
+            sugestão</p>
     </div>
 </footer>
 </body>

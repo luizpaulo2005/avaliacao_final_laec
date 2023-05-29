@@ -10,4 +10,12 @@
         color: whitesmoke;
     }
   }
+  textarea {
+    background-color: $bg;
+    color: whitesmoke;
+    &:focus {
+      background-color: $bg;
+        color: whitesmoke;
+    }
+  }
 }
