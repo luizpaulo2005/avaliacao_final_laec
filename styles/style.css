@@ -60,4 +60,16 @@ main {
   bottom: 10px;
 }
 
+.forms {
+  color: whitesmoke;
+}
+.forms input {
+  background-color: rgb(24, 24, 27);
+  color: whitesmoke;
+}
+.forms input:focus {
+  background-color: rgb(24, 24, 27);
+  color: whitesmoke;
+}
+
 /*# sourceMappingURL=style.css.map */

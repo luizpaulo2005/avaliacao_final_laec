@@ -1,0 +1,13 @@
+@import '../abstract/variables';
+
+.forms {
+  color: whitesmoke;
+  input {
+    background-color: $bg;
+    color: whitesmoke;
+    &:focus {
+      background-color: $bg;
+        color: whitesmoke;
+    }
+  }
+}
