@@ -1,0 +1,13 @@
+@import '../abstract/variables';
+
+.img-principal {
+  max-width: 100rem;
+  max-height: 300px;
+  height: 100%;
+}
+
+.img-example {
+  max-width: 300px;
+  max-height: 500px;
+  border-radius: 10px;
+}
