@@ -3,8 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <title>Manutenção - Informática Básica</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../styles/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </head>
-<body>
+<body class="container-fluid p-0">
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light header-bg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../../index.html">
+                <img src="../../img/logo.png" class="img-logo img-fluid d-inline-block"/>
+                Juninho Cursos
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../basic_info.html">Informática Básica</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../advance_info.html">Informática Avançada</a>
+                    </li>
+                </ul>
+                <form class="d-flex gap-2">
+                    <input class="form-control" type="search" placeholder="O que está procurando?" aria-label="Search">
+                    <button class="btn btn-outline-dark" type="submit">Buscar</button>
+                    <a href="../login.html" class="btn btn-success">Login</a>
+                </form>
+            </div>
+        </div>
+    </nav>
+</header>
 
+<main class="container-fluid py-5 d-flex flex-wrap">
+    <div class="col-12 col-lg-4 d-flex flex-column">
+        <h3 class="text-center">Curso de Manutenção de Computadores</h3>
+        <img src="../../img/manutencao.png" class="img-principal align-self-center" >
+    </div>
+    <div class="col-12 col-lg-4 d-flex justify-content-center flex-column">
+        <p>Conteúdos que serão abordados durante esse curso:</p>
+        <ul>
+            <li>Hardware</li>
+            <li>Software</li>
+            <li>Instalação de Sistemas Operacionais</li>
+            <li>Manutenção Preventiva</li>
+            <li>Análise de Possíveis Erros</li>
+        </ul>
+    </div>
+    <div class="col-12 col-lg-3 d-flex justify-content-center flex-column text-center">
+        <h3>Preço</h3>
+        <s>R$ 59,90</s>
+        <p class="fs-4">R$ 39,90</p>
+    </div>
+    <div class="col-12 d-flex flex-column justify-content-center">
+        <h5 class="text-center">Algumas imagens do que será abordado: </h5>
+        <div class="d-flex flex-wrap gap-2 justify-content-center">
+            <img src="../../img/manutencao/img01.jpg" class="img-example">
+            <img src="../../img/manutencao/img02.jpeg" class="img-example">
+            <img src="../../img/manutencao/img03.webp" class="img-example">
+            <img src="../../img/manutencao/img04.webp" class="img-example">
+        </div>
+    </div>
+</main>
+
+<footer class="d-flex flex-row footer-bg justify-content-around flex-wrap p-4 redes-sociais gap-5">
+    <div class="d-flex flex-column justify-content-center text-center col-12 col-md-6 col-lg-3">
+        <h4>Redes Sociais</h4>
+        <p class="mt-2">Facebook</p>
+        <p>Instagram</p>
+        <p>Twitter</p>
+        <p>LinkedIn</p>
+        <p>WhatsApp</p>
+    </div>
+    <div class="d-flex flex-column justify-content-center text-center col-12 col-md-6 col-lg-3">
+        <h4>Quem somos nós?</h4>
+        <p>Uma empresa simples que oferece cursos com preços acessíveis à populações de baixa renda.</p>
+    </div>
+    <div class="d-flex flex-column justify-content-center text-center col-12 col-md-6 col-lg-3">
+        <h4>Nossos contatos</h4>
+        <p class="mt-2">Telefone: (11) 99999-9999</p>
+        <p>E-mail: email@email.com</p>
+        <p>Tem dúvidas? Acesse esse <a href="../duvidas.html" class="underline link-color">link</a> e nos envie sua
+            sugestão</p>
+    </div>
+</footer>
 </body>
 </html>
