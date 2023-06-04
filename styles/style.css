@@ -94,6 +94,7 @@ main {
 .img-example {
   max-width: 300px;
   max-height: 500px;
+  height: fit-content;
   border-radius: 10px;
 }
 
